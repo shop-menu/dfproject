@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
+	
+	<title>DF Project</title>
+  <link rel="icon" type="image/x-icon" href="img/images.png">
+</head>
+<body>
+  <header>
+		<nav>
+			<div class="logo">
+			<a href="index.html"><img class="llogo" src="img/images.png" alt=""></a>
+		</div>
+
+		<input type="checkbox" name="" id="menu-toogle">
+
+		<label for="menu-toogle" class="hamburger-menu">
+				<span></span>
+		</label>
+
+		
+		<div class="menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<!-- <li><a href="about.html">About</a></li> -->
+				<li><a href="shop.html">Shop</a></li>
+			</ul>
+		</div>
+		<div class="social">
+			<a href="https://www.instagram.com/dfproject_jewellery/"><i class="fab fa-instagram-square"></i> </a>
+			<a href="https://www.facebook.com/DFprojectjewelry/"><i class="fab fa-facebook-square"></i> </a>
+		</div>
+
+
+		<div class="mobil-menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<!-- <li><a href="about.html">About</a></li> -->
+				<li><a href="shop.html">Shop</a></li>
+			</ul>
+		</div>
+		</nav>
+
+		
+	</header>
+	<section>
+        <div class="container">
+          <form action="https://formspree.io/f/xvolpere" method="POST" id="my-form">
+      
+            <div class="form-group">
+              <label for="firstName"> Name Surname</label>
+              <input type="text" id="firstName" name="firstName">
+            </div>
+      
+            <div class="form-group">
+              <label for="Jewellery code">Jewellery code</label>
+              <input type="text" id="Jewellery code" name="Jewellery code">
+            </div>
+      
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email">
+            </div>
+     
+
+            <div class="form-group">
+              <label for="massage">Massage</label>
+              <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+            </div>
+      
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <div id="status"></div>
+      </section>
+
+
+      <script src="js/contact.js"></script>
+</body>
+</html>
